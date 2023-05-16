@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+@media screen and (min-width:769px){
+    .conteudo{
+        background: linear-gradient(to right, var(--cores-dancantes));
+        width: 550px;
+        height: 130px;
+        border-radius: 10px;
+        position: relative;
+        z-index: 999;
+        animation: coresDancantes 3s linear infinite;
+    }
+
+    @keyframes coresDancantes {
+        100%{
+            filter: hue-rotate(360deg);
+        }    
+    }
+
+    .conteudo .relogio{
+        z-index: 1;
+        background-color: var(--cor-background);
+        width: 530px;
+        height: 110px;
+        border-radius: 10px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        -webkit-box-reflect: below 50px linear-gradient(transparent, var(--cor-reflexo));
+        padding:10px;
+        text-align: center;
+    
+    }
+
+    .conteudo .relogio h4{
+        background: linear-gradient(to right, var(--cores-dancantes));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 1.5rem;
+    }
+}

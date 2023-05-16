@@ -1,4 +1,6 @@
- :root {
+@charset "UTF-8";
+
+:root {
     --cor-background: #212123 ;
     --cor-reflexo: rgb(255, 255, 255, 0.4);
     --cores-dancantes: rgb(76, 217, 105) ,  rgb(52, 170, 220) , 
@@ -24,7 +26,7 @@ html,body{
 
 .conteudo{
     background: linear-gradient(to right, var(--cores-dancantes));
-    width: 550px;
+    width: 320px;
     height: 130px;
     border-radius: 10px;
     position: relative;
@@ -46,7 +48,7 @@ html,body{
 .conteudo .relogio{
     z-index: 1;
     background-color: var(--cor-background);
-    width: 530px;
+    width: 95%;
     height: 110px;
     border-radius: 10px;
     display:flex;
@@ -61,7 +63,7 @@ html,body{
     background: linear-gradient(to right, var(--cores-dancantes));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 .conteudo span{
     height:100%;
