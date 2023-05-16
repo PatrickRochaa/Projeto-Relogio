@@ -63,7 +63,7 @@ html,body{
     background: linear-gradient(to right, var(--cores-dancantes));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 .conteudo span{
     height:100%;
